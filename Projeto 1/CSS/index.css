@@ -1,0 +1,78 @@
+html, body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+body {
+   background-color: #f1f1f1;
+   display: flex;
+   justify-content: left;
+
+}
+.wrapper {
+   width: 1200px;
+   display: flex;
+   margin: 0 auto;
+   background-color: aquamarine;
+}
+.main {
+   display: flex;
+   flex-flow: column;
+   width: 85%;
+}
+.menu {
+   width: 20%;
+   background-color: rgb(171, 173, 173);
+   padding: 15px 20px 0px;
+}
+
+.header {
+   background-color: rgb(171, 173, 173);
+   min-height: 150px;
+   display: flex;
+   text-align: justify;
+}
+
+#LogoHeader{
+   position: absolute;
+   width: 150px;
+   right: 100px;
+   
+}
+.content {
+   background-color: white;
+   min-height: 300px;
+   padding: 20px;
+}
+.footer {
+   text-align: center;
+   background-color: rgb(171, 173, 173);
+   min-height: 150px;
+}
+
+table{
+   -webkit-box-shadow:12px 14px 6px 5px rgba(0,0,0,0.24);
+   box-shadow: 5px 10px 10px 1px rgba(0,0,0,0.24);
+   border: solid 2px;
+}
+
+table thead th {
+   border:dotted 1px black;
+   background-color: black;
+   color: white;
+
+}
+
+table tfoot td{
+   background-color: darkgray;
+}
+
+table tbody tr:nth-child(even){
+   background-color: lightgrey;
+   cursor: pointer;
+}
+
+table tbody tr:hover td{
+   background-color: lightslategrey;
+
+}
